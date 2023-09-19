@@ -69,7 +69,7 @@ body {
 
 #navbar li {
     list-style: none;
-    padding: 0 25px;
+
 }
 
 #navbar li .navbar-item {
@@ -84,6 +84,7 @@ body {
     z-index: 1;
     text-transform: lowercase;
     letter-spacing: 4px;
+    margin-right: 32px;
 
     &:before {
         content: '';
@@ -135,7 +136,7 @@ body {
 #navbar #cart {
     color: #595959;
     font-size: 30px;
-    margin-left: 86px;
+    margin-left: 45px;
     transition: .3s;
 }
 
@@ -143,6 +144,7 @@ body {
     color: #595959;
     font-size: 30px;
     transition: .3s;
+    display: none;
 }
 
 #navbar #cart:hover {
