@@ -15,15 +15,8 @@ h4 {
     padding-bottom: 2px;
 }
 
-p {
-    font-size: 22px;
-    color: #575757;
-    letter-spacing: 1px;
-    padding-bottom: 2px;
-}
-
 .section-p1 {
-    padding: 40px 80px;
+    padding: 40px 70px;
 }
 
 .section-m1 {
@@ -38,6 +31,8 @@ body {
 
 
 
+
+
 /* header start */
 #header {
     display: flex;
@@ -46,6 +41,10 @@ body {
     padding: 20px 80px;
     background-color: #c39f89;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #header img {
@@ -154,6 +153,8 @@ body {
 #navbar #menu:hover {
     color: #f6d5b4;
 }
+
+
 
 
 
@@ -278,4 +279,102 @@ body {
     transform: scale(0.1, 1);
     background-color: #f6d5b450;
     color: #595959;
+}
+
+
+
+
+#feature {
+    background-color: #f6d5b4;
+}
+
+
+#feature .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+
+#feature .heading {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    margin-top: 8px;
+    color: #595959;
+    border-bottom: #c39f89 solid 1px;
+    letter-spacing: 8px;
+    text-transform: lowercase;
+    text-shadow: -2px 2px 1px #c39f89;
+    padding-bottom: 8px;
+}
+
+#feature .boxes .fe-box {
+    text-align: center;
+    padding: 30px 8px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.185);
+    border: 1px solid #c39f89d5;
+    border-radius: 4px;
+    margin: 15px 9px;
+    transition: .4s;
+    background-color: white;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 0 .1rem 3rem rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#feature .fe-box img {
+    margin-bottom: 40px;
+}
+
+#feature .fe-box h6 {
+    font-size: 18px;
+    color: #595959;
+    margin-bottom: 46px;
+}
+
+.card-side.back {
+    transform: rotateY(-180deg);
+    color: #595959;
+    position: absolute;
+}
+
+.card-side.back h5 {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: #595959 solid .5px;
+}
+  
+.fe-box:hover .card-side.front {
+    transform: rotateY(180deg);
+}
+  
+.fe-box:hover .card-side.back {
+    transform: rotateY(0deg);
+}
+
+.fe-box {
+    perspective: 150rem;
+    margin: auto;
+    height: 22rem;
+    max-width: 400px;
+    box-shadow: none;
+    background: none;
+}
+
+.card-side {
+    height: 25rem;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    color: white;
 }
