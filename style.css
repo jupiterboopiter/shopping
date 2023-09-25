@@ -28,7 +28,7 @@ body {
 }
 
 button.normal {
-    font-size: 18px;
+    font-size: 20px;
     text-shadow: -1px 1px 0 #c39f89;
     letter-spacing: 2px;
     font-weight: 600;
@@ -649,4 +649,60 @@ button.normal {
 
 #banner button:hover {
     background: #d6af95;
+}
+
+
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 120px 100px;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./products/shirt-four.jpg);
+    min-width: 700px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url();
+}
+
+
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url();
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url();
+}
+
+#banner3 .banner-box3 {
+    background-image: url();
 }
