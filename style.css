@@ -657,7 +657,7 @@ button.normal {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 120px 100px;
+    padding: 100px 60px 30px 60px;
 }
 
 #sm-banner .banner-box {
@@ -665,16 +665,69 @@ button.normal {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(./products/shirt-four.jpg);
-    min-width: 700px;
+    background-image: url(./banners/b1.jpg);
+    min-width: 850px;
     height: 50vh;
     background-size: cover;
     background-position: center;
+    padding-left: 10px;
+}
+
+#sm-banner .banner-box h4 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 1px white solid;
+    text-shadow: 0 0 1px white;
+}
+
+#sm-banner .banner-box h2 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: -2px 2px 0 #474747;
+}
+
+#sm-banner .banner-box span {
+    color: white;
+    margin-bottom: 55px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-shadow: -1px 1px 0 #595959;
+    letter-spacing: 1px;
+}
+
+#sm-banner .banner-box p {
+    margin-top: 4px;
+    text-shadow: -1px 1px 0 #595959;
+    letter-spacing: 1px;
 }
 
 #sm-banner .banner-box2 {
-    background-image: url();
+    background-image: url(./banners/b2.jpg);
 }
+
+#sm-banner .banner-box button {
+    padding: 14px 22px;
+    margin-left: 15px;
+    background: #a78874;
+    font-size: 20px;
+    color: white;
+    border: 1px white solid;
+    font-weight: 950;
+    transition: .3s;
+    text-shadow: -1px 1px 0 #7c6658;
+    letter-spacing: 2px;
+}
+
+#sm-banner .banner-box button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background: #a78874a1;
+}
+
+
 
 
 
@@ -682,7 +735,7 @@ button.normal {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 80px;
+    padding: 0 60px;
 }
 
 #banner3 .banner-box {
@@ -690,8 +743,8 @@ button.normal {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url();
-    min-width: 30%;
+    background-image: url(./banners/b3.jpg);
+    min-width: 32%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -700,9 +753,25 @@ button.normal {
 }
 
 #banner3 .banner-box2 {
-    background-image: url();
+    background-image: url(./banners/b4.jpg);
 }
 
 #banner3 .banner-box3 {
-    background-image: url();
+    background-image: url(./banners/b5.jpg);
+}
+
+#banner3 .banner-box h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    text-shadow: -2px 2px 0 #474747;
+}
+
+#banner3 .banner-box h3 {
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: -1px 1px 0 #595959;
+    background: #a78874;
+    padding: 4px;
 }
