@@ -787,6 +787,7 @@ button.normal {
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #7c6658;
+    margin-bottom: 10rem;
 }
 
 #newsletter h4 {
@@ -845,4 +846,68 @@ button.normal {
 #newsletter button:hover {
     cursor: pointer;
     background: #a78874a1
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.233);
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    color: #595959;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 40px;
+}
+
+footer .follow i {
+    color: #595959;
+    padding-right: 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #d6af95;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
 }
