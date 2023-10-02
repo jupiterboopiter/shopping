@@ -441,6 +441,10 @@ button.normal {
 
 
 
+
+
+
+
 #product1 .title {
     text-align: center;
     color: #595959;
@@ -1024,15 +1028,126 @@ footer .copyright {
     #hero .text {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         justify-content: flex-start;
+        width: 75%;
+    }
+
+    #hero h4 {
+        margin-top: 5.4rem;
+        color: #f6d5b4;
+        text-shadow: -2px 0 2px #595959;
+        margin-bottom: 4rem;
     }
 
     #hero h2 {
-        font-size: 2.2rem;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+        line-height: 40px;
     }
 
     #hero h1 {
-        font-size: 3rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    #hero p {
+        font-size: 20px;
+        color: #f6d5b4;
+        text-shadow: -2px 0 2px #595959;
+        margin-top:;
+        padding-bottom: 0;
+    }
+
+    #hero p span {
+        color: #595959;
+        text-shadow: -1px 1px 2px #f6d5b4;
+    }
+
+    #hero .box-1 .btn {
+        margin-top: 4rem;
+    }
+
+
+
+
+
+
+
+    #feature {
+        height: 240vh;
+    }
+
+    #feature .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #feature .boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+    #product1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #product1 .pro {
+        padding-bottom: 4rem;
+        width: 80vw;
+    }
+
+
+
+
+
+    #banner {
+        height: 50vh;
+        background-image: url("./back-two.jpg");
+        background-position: top 20% right 60rem;
+        background-size: cover;
+    }
+
+    #banner h4 {
+        font-size: 2rem;
+    }
+
+    #banner h2 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+
+
+
+
+    #sm-banner {
+        padding: 16px 0;
+    }
+
+
+    #banner3 {
+        padding: 20px;
+    }
+
+
+
+    #newsletter h4 {
+        font-size: 1.4rem;
+    }
+
+    #newsletter .form {
+        width: 100%;
     }
 }
