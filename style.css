@@ -84,7 +84,6 @@ button.normal {
 
 #navbar li {
     list-style: none;
-
 }
 
 #navbar li .navbar-item {
@@ -155,7 +154,7 @@ button.normal {
     transition: .3s;
 }
 
-#navbar #menu {
+#mobile {
     color: #595959;
     font-size: 30px;
     transition: .3s;
@@ -556,12 +555,6 @@ button.normal {
     transform: scale(1.1);
 }
 
-#product1 .btn .more {
-    padding: 22px 34px;
-    margin-left: 47.1rem;
-    margin-top: 2rem;
-}
-
 .button-52 {
     margin-left: 44.3rem;
     margin-top: 2rem;
@@ -611,7 +604,6 @@ button.normal {
     align-items: center;
     text-align: center;
     background-image: url(back-two.jpg);
-    width: 100%;
     height: 40vh;
     background-size: cover;
     outline: #a78874 2px solid;
@@ -910,4 +902,137 @@ footer a:hover {
 footer .copyright {
     width: 100%;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:412px) {
+
+    #header {
+        list-style: none;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: .3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-top: 25px;
+    }
+
+    #close {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    #cart {
+        display: none;
+    }
+
+    #menu {
+        list-style: none;
+    }
+
+    #header .logo {
+        position: absolute;
+        left: 10px;
+        bottom: 6px;
+    }
+
+
+
+
+
+
+    #mobile {
+        display: flex;
+        list-style: none;
+        color: #595959;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #595959;
+    }
+
+    #mobile .mobile {
+        list-style: none;
+        color: #595959;
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile .mobile li {
+        margin-left: 12px;
+    }
+
+    #mobile .mobile .last {
+        margin-left: 11rem;
+    }
+
+    #mobile .mobile .single {
+        margin-left: 2rem ;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 250px;
+    }
+    
+    .button-52 {
+        display: none;
+    }
+
+    footer .install img {
+        width: 275px;
+    }
+
+    #hero {
+        background-image: url("./back.jpg");
+        background-position: top 20% right 51rem;
+        background-size: cover;
+        padding: 0 16px;
+    }
+
+    #hero .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #hero h2 {
+        font-size: 2.2rem;
+    }
+
+    #hero h1 {
+        font-size: 3rem;
+    }
 }
