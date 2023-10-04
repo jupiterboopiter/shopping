@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>stellify ✧*:･ﾟ</title>
+</head>
+
+
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="./logo-transparent-svg.svg" class="logo" alt="Logo that reads 'STELLIFY,' along with a drawing of a flower underneath"</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="navbar-item" href="index.html">Home</a></li>
+                <li><a class="active navbar-item" href="shop.html">Shop</a></li>
+                <li><a class="navbar-item" href="blog.html">Blog</a></li>
+                <li><a class="navbar-item" href="about.html">About</a></li>
+                <li><a class="navbar-item" href="contact.html">Contact</a></li>
+
+                <li><a id="cart" class="search" href="#"><i onclick="TestsFunction()" class='bx bx-search' ></i></a></li>
+
+                <div id="TestsDiv" style="display:none">
+                    <input class="searching" type="text" name="search" placeholder="Search">
+                </div>
+
+                <li><a id="cart" href="cart.html"><i class='bx bx-cart'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <ul class="mobile">
+                <li class="carts last"><a href="#"><i class='bx bx-search' ></i></a></li>
+                <li class="carts"><a href="cart.html"><i class='bx bx-cart'></i></a></li>
+                <li id="menu" class="single" href="#"><i class='bx bx-menu'></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="./products/shirt-one.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="./products/shirt-one.jpg" width="100%" class="small-img away" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="./products/dress-one.jpg" width="100%" class="small-img away" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="./products/dress-four.jpg" width="100%" class="small-img away" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="./products/pants-two.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Shirts/Blouses</h6>
+            <h4>Simple White Crop Top</h4>
+            <h2>$7.99</h2>
+            <select>
+                <option>Select Size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>X-Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aliquid commodi aut impedit dolorem distinctio vero cumque suscipit, inventore repudiandae dicta eveniet minus veniam necessitatibus quis harum odit neque in quia nesciunt delectus voluptate dolore? Autem beatae optio saepe atque sapiente accusantium omnis!</span>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Our Newsletters!</h4>
+            <p>Get E-mail shop updates and even some <span>special offers</span>.</p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button>Sign Up</button>
+        </div>
+        
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="./logo-transparent-svg.svg" alt="logo" width="150">
+            <h4>Contact Us</h4>
+            <p><strong>Headquarters:</strong> 1540 Broadway, New York, NY 10036</p>
+            <p><strong>Phone:</strong> (212) 302-0594</p>
+            <p><strong>Hours:</strong> 8:00AM - 9:00PM, Mon - Sat CLOSED SUNDAY</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-facebook-square'></i>
+                    <i class='bx bxl-youtube' ></i>
+                    <i class='bx bxl-pinterest' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Newsletters</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track Your Package</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Download Us On Your Phone!</h4>
+            <p>Available on the App Store and Google Play</p>
+            <div class="row">
+                <img src="./download.png" alt="">
+            </div>
+            <p>Secured Payments</p>
+            <img src="./pay.png" alt="" width="250">
+        </div>
+
+
+        <div class="copyright">
+            <p>stellify - The Odin Project | Copyright by Elisa Elezi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

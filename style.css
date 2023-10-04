@@ -998,7 +998,96 @@ footer .copyright {
     font-size: 20px;
     font-weight: 600;
 }
+/* shop page end */
 
+
+
+
+
+/* single product */
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-left: 50px;
+}
+
+#MainImg {
+    width: 525px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.small-img-group .away {
+    margin-right: 6px;
+}
+
+.small-img-group img {
+    width: 127px;
+    height: 190px;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 40%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h6 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #8f8f8f;
+    text-shadow: 0px 1px 1px #c9c9c9;
+    margin-bottom: 2.6rem;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+    color: #a78874;
+    padding-bottom: 2rem;
+
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 2rem;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 30px;
+    font-size: 18px;
+}
 
 
 
