@@ -953,6 +953,52 @@ footer .copyright {
 
 
 
+/* shop page */
+#page-header {
+    background-image: url(./page-header.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    background-position-y: -5rem;
+}
+
+#page-header h2 {
+    color: #f7e9e1;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#page-header p {
+    color: #f7e9e1;
+    font-size: 1.5rem;
+}
+
+
+
+#pages {
+    text-align: center;
+}
+
+#pages a {
+    text-decoration: none;
+    background-color: #d6af95;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #595959;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#pages a i {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 
 
